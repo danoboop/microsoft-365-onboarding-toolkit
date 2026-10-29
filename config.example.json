@@ -1,0 +1,10 @@
+{
+  "organizationName": "Example Organization",
+  "domain": "example.com",
+  "usageLocation": "US",
+  "workLocations": ["Office", "Remote", "Hybrid"],
+  "profiles": [
+    { "role": "Engineer", "department": "Engineering", "licenseSkuId": "" },
+    { "role": "Coordinator", "department": "Operations", "licenseSkuId": "" }
+  ]
+}
