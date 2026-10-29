@@ -6,11 +6,13 @@ This project generalizes an onboarding workflow I built for internal IT operatio
 
 ## Status
 
-**v0.1 â€” starter kit.** The browser preview and request planner are tested locally. The canvas starter is a disconnected demo: it previews an email address and does not create accounts. Opening the `.msapp` in Power Apps Studio and the connected provisioning flow have **not been validated in a separate tenant**. No tenant was created for this release. Import validation and a full provisioning test are required before organizational use.
+**v0.1 - starter kit.** The browser preview and request planner are tested locally. The canvas starter is a disconnected demo: it previews an email address and does not create accounts. Opening the `.msapp` in Power Apps Studio and the connected provisioning flow have **not been validated in a separate tenant**. No tenant was created for this release. Import validation and a full provisioning test are required before organizational use.
 
 This is not a one-click production solution ZIP. The repository includes a canvas `.msapp`, its JSON control source for review, Power Fx formulas, an exact flow build guide, and Graph request examples. Installers create and authorize their own flow.
 
 ## Try without Microsoft access
+
+[Open the offline demo](https://heyitsdanish.com/projects/microsoft-365-onboarding/) · [Project showcase](https://heyitsdanish.com/projects.html)
 
 Download this repository and run `python -m http.server 8080` from its root. Open `http://localhost:8080/`. The demo has no fetch calls, sign-in, analytics, browser storage, or provisioning capability. Use fictional names. It builds a request plan entirely in your browser.
 
